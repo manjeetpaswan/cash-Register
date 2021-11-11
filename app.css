@@ -1,0 +1,24 @@
+*{
+
+}
+.container{
+    display : flex;
+    flex-direction : column;
+    width : 50vw;
+    /* display: block; */
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(68, 168, 201);
+  }
+
+  #bill-amount ,#cash-given {
+
+    padding : 0.5rem ;
+    width: 100%;
+
+  }
