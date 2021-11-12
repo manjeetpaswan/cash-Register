@@ -1,24 +1,41 @@
-*{
+body{
 
-}
-.container{
+  background-color: rgb(223, 169, 169);
+
+} 
+.container {
     display : flex;
     flex-direction : column;
-    width : 50vw;
+    width : 30vw;
+    height: 40vw;
+    align-items : center;
+    justify-content : center;
+    margin:auto;
+    padding: 1rem;
+     border: 1px solid;
+     border-radius: 10px;
+    background-color : rgb(108, 190, 218);
+    box-shadow: -30px 20px 20px rgb(211, 121, 121)
     /* display: block; */
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+.change-table td,.change-table th {
+    border: 1px solid #110f0f;
+    text-align: center;
+    padding: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(68, 168, 201);
   }
 
   #bill-amount ,#cash-given {
 
-    padding : 0.5rem ;
-    width: 100%;
+    padding: 0.5rem;
+    width: 60%;
 
+  }
+
+  #check-button  {
+
+      padding : 0.5rem;
+      width: 65%;
   }
